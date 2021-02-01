@@ -1,0 +1,172 @@
+/* blueprint */
+/* .watermark img{
+    opacity: 0;
+    position: absolute;
+    left: 0px;
+    top: 6px;
+    width:100%;
+    height: auto;
+    z-index: 20;
+}
+footer, section, div{
+-webkit-box-shadow: inset 0px 0px 5px 5px rgba(255,0,255,1);
+-moz-box-shadow: inset 0px 0px 5px 5px rgba(255,0,255,1);
+box-shadow: inset 0px 0px 5px 5px rgba(255,0,255,1);
+} */
+
+
+
+/* COLORS */
+:root{
+--color-1: #f7f7f7;
+
+
+}
+/* flex */
+.container {
+    display:flex;
+    
+}
+
+.col { 
+    flex-direction: column;
+}
+
+.f1{
+    flex:1;
+}
+
+.f2{
+    flex:2;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+html {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;      /* Firefox */
+}
+
+html, body {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+   
+    width: 100%;
+}
+
+h1, h2, h3, ul, li, a{
+    color: #4d4959;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;  
+}
+.one {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image:url(../Project_One/assets/Layer\ 7.png)
+}
+
+.two{
+    background-color: var(--color-1);
+    height: 563px;
+}
+
+.three{
+    height: 720px;
+}
+
+.four{
+    height: 720px;
+}
+
+.five{
+   
+    height: 720px;
+}
+.five div{
+    flex: 1;
+}
+
+.six{
+    background-color: var(--color-1);
+    height: 563px;
+}
+
+.seven{
+    height: 640px;
+}
+.green {
+    height: 100%;
+    z-index: 30;
+    cursor: pointer;
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+/* :has( .green){ */
+.center{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 3px;
+}
+
+.green:hover {
+    background-color: #a5d8be91;
+}
+
+.eight{
+   
+    background-color: #292f35;
+    height: 236px;
+}
+
+.nine{
+    height: 565px;
+}
+
+footer{
+    background-color: var(--color-1);
+    height: 300px;
+}
+
+/* images */
+*[class^="img_L"] { 
+    background-size: cover;
+    background-position: center;
+    z-index: 10;
+}
+.img_L10 {background-image:url(../Project_One/assets/Layer\ 10.png) }
+.img_L11 {background-image:url(../Project_One/assets/Layer\ 11.png) }
+.img_L12 {background-image:url(../Project_One/assets/Layer\ 12.png) }
+.img_L13 {background-image:url(../Project_One/assets/Layer\ 13.png) }
+.img_L14 {background-image:url(../Project_One/assets/Layer\ 14.png) }
+.img_L15 {background-image:url(../Project_One/assets/Layer\ 15.png) }
+.img_L16 {background-image:url(../Project_One/assets/Layer\ 16.png) }
+.img_L19 {background-image:url(../Project_One/assets/Layer\ 19.png) }
+.img_L20 {background-image:url(../Project_One/assets/Layer\ 20.png) }
+.img_L21 {background-image:url(../Project_One/assets/Layer\ 21.png) }
+.img_L22 {background-image:url(../Project_One/assets/Layer\ 22.png) }
+.img_L23 {background-image:url(../Project_One/assets/Layer\ 23.png) }
+/* .img_L23:hover{opacity: 0.5} */Project_One_L24 {background-image:url(../Project_One/assets/Layer\ 24.png) }
+.img_L25 {background-image:url(../Project_One/assets/Layer\ 25.png) }
+.img_L26 {background-image:url(../Project_One/assets/Layer\ 26.png) }
+
+*[class^="logo"] {
+    /* center the logos */
+   
+}
+.logo_0 { background-image:url(../Project_One/assets/Logo.png) }
+.logo_2 { background-image:url(../Project_One/assets/Logo2.png) }
+.logo_3 { background-image:url(../Project_One/assets/Logo3.png) }
+.logo_4 { background-image:url(../Project_One/assets/Logo4.png) }
+
+.logo_13 { background-image:url(../Project_One/assets/Shape\ 13.png) }
